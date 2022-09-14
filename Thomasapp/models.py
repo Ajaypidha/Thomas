@@ -11,3 +11,15 @@ class Student(models.Model):
     description4=models.CharField(null=True,blank=True)
     school=models.CharField(null=True,blank=True)
 
+    product=models.CharField(null=True,blank=True)
+    apple=models.CharField(null=True,blank=True)
+    bisk=models.CharField(null=True,blank=True)
+      
+
+      
+
+
+    
+
+
+
