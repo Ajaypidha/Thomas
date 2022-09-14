@@ -5,4 +5,9 @@ from django.db import models
 class Student(models.Model):
     name=models.CharField(null=True,blank=True)
     heading=models.CharField(null=True,blank=True)
-    description=models.CharField(null=True,blank=True)
+    description1=models.CharField(null=True,blank=True)
+    description2=models.CharField(null=True,blank=True)
+    description3=models.CharField(null=True,blank=True)
+    description4=models.CharField(null=True,blank=True)
+    school=models.CharField(null=True,blank=True)
+
